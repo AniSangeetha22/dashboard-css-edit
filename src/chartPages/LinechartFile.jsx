@@ -41,7 +41,7 @@ export const LinechartFile = () => {
         style={{
           marginTop: "60px",
           marginBottom: "25px",
-          marginTop: "10px",
+          
           color: "#bc6c25",
         }}
       >

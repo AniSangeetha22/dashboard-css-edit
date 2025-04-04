@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://dashboardone-4.onrender.com",
+  baseURL: "http://localhost:3502",
 });

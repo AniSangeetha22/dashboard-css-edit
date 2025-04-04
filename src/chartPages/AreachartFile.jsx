@@ -33,14 +33,13 @@ export const AreachartFile = () => {
         width: "100%",
         height: "60%",
         marginTop: "80px",
-        objectFit: "cover",
       }}
     >
       <h3
         style={{
           marginTop: "60px",
           marginBottom: "25px",
-          marginTop: "10px",
+
           color: "#bc6c25",
         }}
       >
