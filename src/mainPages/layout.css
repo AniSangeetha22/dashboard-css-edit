@@ -1,0 +1,33 @@
+.layout{
+    width: 100%;
+    height: 100vh;
+    /* background-color: cadetblue; */
+}
+
+.top-nav-bar{
+    width: inherit;
+    height: 5%;
+    /* border: 1px solid red; */
+    position: fixed;
+    margin-bottom: 60px;
+}
+
+.left-right-content{
+    
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap:2%;
+    /* overflow: hidden; */
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* @media only screen and (max-width: 780px) {
+    .left-right-content{
+     
+     grid-template-columns: 25% 75%;
+     
+    
+        
+    }
+    
+   } */

@@ -1,0 +1,49 @@
+.customers-main {
+   
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    margin-top: 70px;
+   
+ }
+ div h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: #bc6c25;
+ }
+ table {
+    width: 90%;
+    /* height: 100vh; */
+    padding-left: 30px;
+    color: #41362d;
+    object-fit: fill;
+
+     @media screen  and (max-width:768px){
+        width: 100%;
+    }
+   
+
+ }
+ thead{
+    font-size: 20px;
+   
+ }
+ thead tr{
+    margin-bottom: 30px;
+
+ }
+ thead tr th{
+    text-align: left;
+    
+ }
+ tbody{
+    font-size: 20px;
+   
+  
+ }
+ tbody tr td{
+    text-align: left;
+
+ }

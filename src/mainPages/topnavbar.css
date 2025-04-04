@@ -1,0 +1,123 @@
+/* Navbar CSS */
+
+.navbar-class{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-bottom:1px solid gray ; 
+    align-items:center;
+    font-size:600;
+    color: #ccc;
+    /* position: fixed; */
+
+}
+
+.nav-themes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+    color: #ccc;
+    @media only screen and (max-width: 780px) {
+        margin-right: 6%;
+    }
+    
+}
+.nav-themes li{
+    padding-right: 15px;
+    list-style: none;
+    color: #41362d;
+}
+.nav-themes ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    cursor: pointer;
+    
+}
+.nav-side-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 3%;
+}
+.nav-side-heading img{
+    width: 35px;
+    height: 35px;
+   margin-top: 7px;
+   border-radius: 50%;
+   
+   
+}
+.nav-side-heading li {
+    list-style: none;
+    color: #41362d;
+}
+.nav-side-heading span{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    color: #41362d;
+    text-decoration: none solid rgba(82, 91, 117, 0.8);
+    text-align:start;
+text-indent:0px;
+letter-spacing: 0px;
+}
+.nav-link {
+   display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 20px;
+  color: #41362d;
+  font-style: normal;
+
+ } 
+
+ /* ----------------------------------------------------------------------------- */
+ 
+ .dropdownlogout{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    /* margin-top: 10px; */
+    /* margin-left: 1900px; */
+    margin-left: -50px;
+background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    cursor: pointer;
+    border:1px solid gray ; 
+    border-radius: 5px;
+ }
+ .dropdownlogout ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    cursor: pointer;
+    list-style: none;
+    margin-top: 1px;
+    padding-left: 10px;
+ }
+
+ .dropdownli, .dropdownspan{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #bc6c25;
+ }
+ .dropdownli:hover{
+    color: #44230c; 
+ }
+
+.dropdownspan:hover{
+    color: #44230c;
+ }
