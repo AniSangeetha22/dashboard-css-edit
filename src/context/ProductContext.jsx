@@ -5,7 +5,7 @@ import totalorder from "../api/totalOrderDetails";
 import axios from "axios";
 import LoginContext from "./LoginContext";
 
-useContext;
+// useContext;
 
 const ProductContext = createContext({});
 

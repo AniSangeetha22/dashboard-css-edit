@@ -33,6 +33,7 @@ export const AreachartFile = () => {
         width: "100%",
         height: "60%",
         marginTop: "80px",
+        position:"absolute"
       }}
     >
       <h3

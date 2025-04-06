@@ -57,6 +57,14 @@ export const LeftSideMenuBar = () => {
         <Link onClick={closeMenu} className="link-style" to="/linechartfile">
           <ChartLine size={19} /> <p>Line Chart</p>
         </Link>
+        <span>Register Pages</span>
+        <Link onClick={closeMenu} className="link-style" to="/registerfile">
+          <ChartArea size={19} /> <p>Register Page</p>
+        </Link>
+        <Link onClick={closeMenu} className="link-style" to="/loginfile">
+          <ChartColumnBig size={19} /> <p>Login Page</p>
+        </Link>
+        
       </div>
     </div>
   );

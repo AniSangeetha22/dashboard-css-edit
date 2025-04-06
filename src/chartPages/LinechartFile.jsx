@@ -36,12 +36,19 @@ export const LinechartFile = () => {
   console.log(totalorders);
 
   return (
-    <div style={{ marginTop: "80px", width: "100%", height: "80%" }}>
+    <div
+      style={{
+        marginTop: "80px",
+        width: "100%",
+        height: "80%",
+        position: "absolute",
+      }}
+    >
       <h3
         style={{
           marginTop: "60px",
           marginBottom: "25px",
-          
+
           color: "#bc6c25",
         }}
       >

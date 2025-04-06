@@ -63,7 +63,7 @@ export const UserLoginProvider = ({ children }) => {
       setUsername("");
       setEmail("");
       setPassword("");
-      navigate("/loginuserfile");
+      navigate("/loginfile");
 
       // history.push('/');
     } catch (err) {
